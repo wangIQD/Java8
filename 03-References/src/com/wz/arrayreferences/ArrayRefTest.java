@@ -24,6 +24,5 @@ public class ArrayRefTest {
         System.out.println("**********************");
         Function<Integer,String[]> function1 = String[]::new;
         System.out.println(function1.apply(10).length);
-        ;
     }
 }
